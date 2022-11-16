@@ -1,5 +1,7 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+    public static void main(String[] args) throws WrongLoginException, WrongPasswordException {
+        Data data = new Data ("01234567891234567891","Passworд","Passworд");
+
     }
 }
